@@ -78,7 +78,7 @@ public class BankAccount {
                 }
                 // The following lines asks the user if they wish to return to the navigation menu. If they select yes, it repeats the do-while loop. If not, the program stops.
                 System.out.println("Do you wish to return to the Navigation Menu? (yes/no)");
-                menuResponse = scanner.next(); // Duplicate local variable menuResponse
+                menuResponse = scanner.next();
             } while (menuResponse.equalsIgnoreCase("yes"));
         } else {
             System.out.println("Error: Authentication failed. Please try again");
